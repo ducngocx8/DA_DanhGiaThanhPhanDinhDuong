@@ -1,0 +1,32 @@
+const { sequelize, NhomTuoi } = require("../../../models");
+const getAll = async () => {
+  try {
+    const result = await sequelize.transaction(async (t) => {
+      const nhomTuoiList = await NhomTuoi.findAll({
+        order: [["id_nhomtuoi", "ASC"]],
+      });
+      return nhomTuoiList;
+    });
+    return result;
+  } catch (error) {
+    return false;
+  }
+};
+
+const customerGetAllNhomTuoiService = async () => {
+  const result = await getAll();
+  if (result) {
+    return {
+      status: true,
+      data: result,
+    };
+  } else {
+    return {
+      status: false,
+      message: "Lỗi hệ thống, vui lòng thử lại sau.",
+    };
+  }
+};
+module.exports = {
+  customerGetAllNhomTuoiService,
+};
