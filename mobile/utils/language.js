@@ -1,0 +1,27 @@
+const LANGUAGE = {
+  english: {
+    loginTitle: "Let's Sign You In",
+    signupTitle: "Getting Started",
+    forgotPasswordTitle: "Password Recovery",
+    otpTitle: "OTP Authentication",
+    loginSubtitle: "Welcome back, you've been missed",
+    signupSubtitle: "Create an account to continue!",
+    forgotPasswordSubtitle:
+      "Please enter your email address to recover your passowrd",
+    otpSubtitle: "An authentication code has been sent to",
+    save: "Save Me",
+    forgotPasswordText: "Forgot Password?",
+    noAccount: "Don't have an account?",
+    haveAccount: "Already have an account?",
+    loginFacebook: "Continue With Facebook",
+    loginGoogle: "Continue With Google",
+    sendEmail: "Send Email",
+    continue: "Continue",
+    signIn: "Sign In",
+    signUp: "Sign Up",
+    resend: "Resend",
+    terms: "Terms and Conditions",
+    aggreeTerms: "By signing up, you aggree to our.",
+    noOTP: "Didn't receive code?",
+  },
+};

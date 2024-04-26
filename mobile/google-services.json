@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "40528226647",
+    "project_id": "rnmobile-a8694",
+    "storage_bucket": "rnmobile-a8694.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40528226647:android:eff8e5c17a077f1ef9f612",
+        "android_client_info": {
+          "package_name": "com.ducngocx8.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40528226647-859rabgt98qls87d00um9l67tjegiauc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ducngocx8.mobile",
+            "certificate_hash": "45681ddbc261ab3a4fc3ca2964463449d1fd6276"
+          }
+        },
+        {
+          "client_id": "40528226647-82qjgdk15jhbgj5vcqdp54acg8500s9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiz7M7vfaekH0NnWN1EjofbE1amY1SG-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40528226647-82qjgdk15jhbgj5vcqdp54acg8500s9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

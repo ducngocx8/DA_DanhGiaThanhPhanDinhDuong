@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "mobile",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["@react-native-google-signin/google-signin"],
+    "extra": {
+      "eas": {
+        "projectId": "35baf766-9e2b-4089-b32f-caa18c027064"
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.ducngocx8.mobile"
+    }
+  }
+}
